@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Garage Door Controller</string>
+    <string name="Button_text">Open Garage</string>
+    <string name="Text_under_button">Opens the garage</string>
+    <string name="Sensor_button_text">Check Garage</string>
+    <string name="sensor_text">Check if the garage is open or closed.</string>
+</resources>
