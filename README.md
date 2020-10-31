@@ -9,3 +9,5 @@ Contains Python script, schematics, and additional information from the youtube 
 `chmod +x install.sh`
 ### Run the script and follow the terminal prompts ###
 `./install.sh`
+## Accessing the website ##
+After the reboot, you can access your garage door at http://serverip:1234/login. The default password is xxxx. You can change this by editing the line that says pswd="xxxx" to whatever password you'd like to have.
