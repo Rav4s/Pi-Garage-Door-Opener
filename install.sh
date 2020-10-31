@@ -22,7 +22,7 @@ then
     wget https://raw.githubusercontent.com/Rav4s/Pi-Garage-Door-Opener/master/Python_script_for_garage_door.py
     sleep 0.5
     echo "Editing /etc/rc.local for auto startup..."
-    tac /etc/rc.local | sed '2 s@.*@python3 /home/pi/garagedoor/Python_script_for_garage_door.py &@' | tac
+    sudo sed -i 'x; ${s@.*@python3 /home/pi/garagedoor/Python_script_for_garage_door.py &@;p;x}; 1d' /etc/rc.local
     sleep 0.5
     echo "Successful install! Rebooting in 5 seconds!"
     sleep 5
