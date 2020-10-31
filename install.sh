@@ -11,7 +11,7 @@ read -r -p "Press y to acknowledge and continue running the script. [y/N] " resp
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
 then
     echo "Installing python3 and pip3..."
-    sudo apt -y install python3 python3-pip
+    sudo apt -y install python3 python3-pip python3-dev python3-rpi.gpio
     echo "Making directory..."
     mkdir garagedoor && cd garagedoor
     sleep 0.5
