@@ -10,13 +10,13 @@ read -r -p "Press y to acknowledge and continue running the script. [y/N] " resp
 
 if [[ "$response" =~ ^([yY][eE][sS]|[yY])$ ]]
 then
-    echo "Installing python3 and pip3..."
-    sudo apt -y install python3 python3-pip python3-dev python3-rpi.gpio
+    echo "Installing python3 and rpi-gpio..."
+    sudo apt -y install python3 python3-dev python3-rpi.gpio
     echo "Making directory..."
     mkdir garagedoor && cd garagedoor
     sleep 0.5
     echo "Installing Bottlepy..."
-    pip3 install bottle
+    wget https://www.bottlepy.org/bottle.py
     sleep 0.5
     echo "Getting latest py file..."
     wget https://raw.githubusercontent.com/Rav4s/Pi-Garage-Door-Opener/master/Python_script_for_garage_door.py
