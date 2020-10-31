@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "This script will install the bottlepy web server and allow you to control and monitor the state of your smart garage door opener."
 sleep 1
