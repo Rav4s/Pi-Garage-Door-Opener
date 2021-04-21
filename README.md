@@ -1,4 +1,7 @@
 # Pi-Garage-Door-Opener
+
+## **Please use the new Flask-based web server located at https://github.com/Rav4s/New-Pi-Garage-Door-Opener**
+
 Contains Python script, schematics, and additional information from the youtube video at https://youtu.be/An7KQbmUnhs. The install.sh file can automate all of the tasks involved in this project, including installing python3, installing bottlepy, making the directory, pulling the latest version of the python script, and editing the /etc/rc.local file to run on startup.
 ## How to run install.sh ##
 ### Make sure system is up to date: ###
